@@ -2,22 +2,25 @@ package week1.day1;
 
 public class Mobile {
 	
-	public void sendSms()
+	public void sendMsg()
 	{
-		System.out.println("Happy to learn Java");
+		boolean isFullCharged  = true;
+		int mobileCost  = 20000 ;
+	    System.out.println("This is my mobile, Fully Charged " + isFullCharged + ", Mobile Cost " + mobileCost );
+			
 	}
 	public void makeCall()
 	{
-		System.out.println("calling my friend");
-		
+		String mobileModel  = "OPPO F7";
+	    float mobileWeight  = 500.52f;
+		System.out.println("This is my mobile, Mobile Model " + mobileModel + ",Mobile Weight " + mobileWeight );
 	}
+	
 	 public static void main(String[] args)
 	 {
 		 Mobile objMobile = new Mobile();
-		 objMobile.sendSms();
+		 objMobile.sendMsg();
 		 objMobile.makeCall();
-	 }
+	}
 	 
-	
-
 }
