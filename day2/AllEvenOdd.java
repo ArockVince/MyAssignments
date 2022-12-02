@@ -10,6 +10,7 @@ public class AllEvenOdd {
 				{
 					System.out.println("The given number is even " + i);
 				}
+			  
 				else {
 					System.out.println("The given number is odd " + i);
 				}
